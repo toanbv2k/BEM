@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BEM</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div>
+        <div class="btn btn--success btn--disable">GO TO NEXT APPROVAL</div>
+        <div class="btn btn--warning">OK</div>
+        <div class="btn btn--danger">TRY AGAIN</div>
+    </div>
+
+    <div>
+        <div class="btn btn--size-l btn--success ">GO TO NEXT APPROVAL</div>
+        <div class="btn btn--size-l btn--warning">OK</div>
+        <div class="btn btn--size-l btn--danger">TRY AGAIN</div>
+    </div>
+
+    <div>
+        <div class="btn btn--size-xl btn--success btn--disable">GO TO NEXT APPROVAL</div>
+        <div class="btn btn--size-xl btn--warning btn--disable">OK</div>
+        <div class="btn btn--size-xl btn--danger">TRY AGAIN</div>
+    </div>
+
+    <div  id="toast">
+
+        <!--SUCCESS-->
+        <div class="toast toast--success">
+            <div class="toast__icon">
+                <i class="fas fa-check-circle"></i>
+            </div>
+            <div class="toast__body">
+                <h3 class="toast__title">Success</h3>
+                <p class="toast__msg">Các bạn subscribe kênh Youtube F8 Official để nhận thông báo khi có các bài học mới nhé ❤️</p>
+            </div>
+            <div class="toast__close">
+                <i class="fas fa-times"></i>
+            </div>
+        </div>
+
+        <!--INFO-->
+        <div class="toast toast--info">
+            <div class="toast__icon">
+                <i class="fas fa-check-circle"></i>
+            </div>
+            <div class="toast__body">
+                <h3 class="toast__title">Info</h3>
+                <p class="toast__msg">Các bạn subscribe kênh Youtube F8 Official để nhận thông báo khi có các bài học mới nhé ❤️</p>
+            </div>
+            <div class="toast__close">
+                <i class="fas fa-times"></i>
+            </div>
+        </div>
+
+        <!--WARNING-->
+        <div class="toast toast--warning">
+            <div class="toast__icon">
+                <i class="fas fa-check-circle"></i>
+            </div>
+            <div class="toast__body">
+                <h3 class="toast__title">Warning</h3>
+                <p class="toast__msg">Các bạn subscribe kênh Youtube F8 Official để nhận thông báo khi có các bài học mới nhé ❤️</p>
+            </div>
+            <div class="toast__close">
+                <i class="fas fa-times"></i>
+            </div>
+        </div>
+
+        <!--Error-->
+        <div class="toast toast--error">
+            <div class="toast__icon">
+                <i class="fas fa-check-circle"></i>
+            </div>
+            <div class="toast__body">
+                <h3 class="toast__title">Error</h3>
+                <p class="toast__msg">Các bạn subscribe kênh Youtube F8 Official để nhận thông báo khi có các bài học mới nhé ❤️</p>
+            </div>
+            <div class="toast__close">
+                <i class="fas fa-times"></i>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+</html>
